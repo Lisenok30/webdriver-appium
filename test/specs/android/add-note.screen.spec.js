@@ -17,7 +17,7 @@ describe('Add Notes', () => {
         await expect(AddNoteScreen.textEditing).toBeDisplayed();
 
         // add note title
-        await AddNoteScreen.noteTitle.addValue("Favorite Anime List");
+        await AddNoteScreen.noteTitle.addValue("My Anime List");
 
         // add note body
         await AddNoteScreen.noteBody.addValue("Naruto\nOnePiece\nAOT");
