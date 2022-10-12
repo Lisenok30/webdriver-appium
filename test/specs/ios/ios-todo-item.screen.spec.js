@@ -23,7 +23,6 @@ describe('Todo Item', () => {
         await ItemScreen.title.addValue("Buy groceries");
         await ItemScreen.dueDate.click();
         await ItemScreen.datePicker.click();
-        await ItemScreen.accesibId('Tuesday, October 11').click();
         await ItemScreen.secondWindow.click();
         await ItemScreen.createBtn.click();
 
