@@ -28,7 +28,7 @@ describe('Todo Item', () => {
 
         // assertion
         await expect(await ItemScreen.accesibId('Buy groceries')).toBeExisting();
-        await expect(await ItemScreen.accesibId('Due Tomorrow')).toBeExisting();
+        await expect(await ItemScreen.accesibId('No due date')).toBeExisting();
         await driver.pause(2000);
     });
     it('Edit a to do item', async () =>{
